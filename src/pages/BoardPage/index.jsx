@@ -1,3 +1,7 @@
 export const BoardPage = () => {
-    <div>board</div>
+    return (
+        <div>
+            <h1>Board</h1>
+        </div>
+    )
 }
