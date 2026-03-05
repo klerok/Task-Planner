@@ -1,13 +1,22 @@
+import { Outlet } from "react-router";
+import { Navbar } from "../../components/Navbar";
 import styles from "./styles/index.module.css";
+import { Header } from "../../components/Header";
+import { itemsNavbar } from "../../components/Navbar/constants/itemsNavbar.js";
 
 export const HomePage = () => {
   return (
     <div className={styles.wrapper}>
-      <header className={styles.header}>header</header>
+      <div className={styles.header}>
+        <Header />
+      </div>
       <main className={styles.main}>
-        <section>section</section>
+        <Outlet />
+        123
       </main>
-      <aside className={styles.navbar}>sidebar</aside>
+      <div className={styles.navbar}>
+        <Navbar itemsNavbar={itemsNavbar} />
+      </div>
     </div>
   );
 };

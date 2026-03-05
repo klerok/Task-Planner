@@ -1,0 +1,19 @@
+.item_title {
+  color: #707070;
+  font-weight: 500;
+}
+
+.item {
+  display: flex;
+  gap: 16px;
+  text-decoration: none;
+}
+
+.active {
+  color: black;
+}
+
+.active .item_title {
+  font-weight: bold;
+  color: black;
+}

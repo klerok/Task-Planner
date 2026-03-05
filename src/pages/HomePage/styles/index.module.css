@@ -1,5 +1,6 @@
 .wrapper {
   display: grid;
+  height: 100vh;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
@@ -10,15 +11,16 @@
 
 .header {
   grid-area: header;
-  background-color: red;
 }
 
 .main {
   grid-area: main;
-  background-color: green;
 }
 
 .navbar {
   grid-area: navbar;
-  background-color: blue;
+  max-width: 224px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 7px -1px 12px 0 rgba(0, 0, 0, 0.11);
 }

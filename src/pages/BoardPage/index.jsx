@@ -1,7 +1,9 @@
+import { Board } from "../../modules/board/components/Board";
+
 export const BoardPage = () => {
-    return (
-        <div>
-            <h1>Board</h1>
-        </div>
-    )
-}
+  return (
+    <>
+      <Board />
+    </>
+  );
+};

@@ -1,6 +1,6 @@
 import styles from "./styles/index.module.css";
 
-export const AnalyticIcon = () => {
+export const AnalyticsIcon = () => {
   return (
   <svg
     viewBox="0 0 24 24"
