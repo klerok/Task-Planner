@@ -10,5 +10,5 @@ export const ROUTES = createBrowserRouter([
   { path: "/dashboard", element: <DashboardPage /> },
   { path: "/board", element: <BoardPage /> },
   { path: "/analytics", element: <AnalyticsPage /> },
-  { path: "/settings", element: <SettingsPage /> }, 
+  { path: "/settings", element: <SettingsPage /> },
 ]);
