@@ -1,8 +1,7 @@
 import { Outlet } from "react-router";
-import { Navbar } from "../../components/Navbar";
 import styles from "./styles/index.module.css";
 import { Header } from "../../components/Header";
-import { itemsNavbar } from "../../components/Navbar/constants/itemsNavbar.js";
+import { Navbar } from '../../components/Navbar'
 
 export const HomePage = () => {
   return (
@@ -15,7 +14,7 @@ export const HomePage = () => {
         123
       </main>
       <div className={styles.navbar}>
-        <Navbar itemsNavbar={itemsNavbar} />
+        <Navbar/>
       </div>
     </div>
   );

@@ -1,0 +1,48 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .main_logo {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    text-decoration: none;
+  }
+  
+  .main_logo_title {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .items_navbar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 58px;
+    gap: 37px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .logout_icon {
+    margin-top: auto;
+    margin-bottom: 84px;
+    display: flex;
+    gap: 16px;
+  }
+  
+  .logout_title {
+    color: black;
+    font-weight: 500;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  
